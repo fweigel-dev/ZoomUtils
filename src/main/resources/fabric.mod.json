@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "zoomutils",
+	"version": "${version}",
+	"name": "ZoomUtils",
+	"description": "Smooth, configurable zoom with scroll-wheel adjustment — like OptiFine zoom, without OptiFine.",
+	"authors": [
+		"fweigel-dev"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC-BY-4.0",
+	"icon": "assets/zoomutils/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.fweigel.zoomutils.ZoomUtilsClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "zoomutils.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fweigel-util-lib": ">=1.2.0"
+	}
+}

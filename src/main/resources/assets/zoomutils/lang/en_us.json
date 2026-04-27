@@ -1,0 +1,11 @@
+{
+	"key.category.zoomutils.general": "ZoomUtils",
+	"key.zoomutils.zoom": "Zoom",
+	"key.zoomutils.config": "Open ZoomUtils Settings",
+	"zoomutils.screen.title": "ZoomUtils Settings",
+	"zoomutils.screen.default_zoom": "Default Zoom: %s",
+	"zoomutils.screen.max_zoom": "Max Zoom: %s",
+	"zoomutils.screen.smooth_zoom": "Smooth Zoom: %s",
+	"zoomutils.state.on": "ON",
+	"zoomutils.state.off": "OFF"
+}
