@@ -29,7 +29,7 @@ public class ZoomUtilsClient implements ClientModInitializer {
             ZoomController.tick(zoomKey.isDown());
 
             while (configKey.consumeClick()) {
-                client.setScreen(new ZoomUtilsScreen());
+                client.setScreenAndShow(new ZoomUtilsScreen());
             }
         });
     }
